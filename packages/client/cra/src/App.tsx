@@ -1,26 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
+
+import { Message } from '@client/components';
+import { magicNumber } from '@lib/magic-number';
+
 import './App.css';
 
 function App() {
+  const message = `The magic number of CRA is ${magicNumber()}.`;
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit
-          <code>src/App.tsx</code>
-          and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Message message={message} />
     </div>
   );
 }

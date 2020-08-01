@@ -1,6 +1,7 @@
 {
   "name": "next",
   "version": "0.1.0",
+  "author": "Pedro Arantes <arantespp@gmail.com> (https://twitter.com/arantespp)",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
