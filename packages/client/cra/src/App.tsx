@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Message } from '@client/components';
+import { Message } from '@client/ui';
 import { magicNumber } from '@lib/magic-number';
 
 import './App.css';

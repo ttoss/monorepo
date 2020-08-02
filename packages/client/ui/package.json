@@ -1,0 +1,26 @@
+{
+  "name": "@client/ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [],
+  "author": "Pedro Arantes <arantespp@gmail.com> (https://twitter.com/arantespp)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@storybook/addon-actions": "^6.0.0-rc.21",
+    "@storybook/addon-essentials": "^6.0.0-rc.21",
+    "@storybook/addon-links": "^6.0.0-rc.21",
+    "@storybook/react": "^6.0.0-rc.21",
+    "babel-loader": "^8.1.0",
+    "react-is": "^16.13.1"
+  },
+  "dependencies": {}
+}

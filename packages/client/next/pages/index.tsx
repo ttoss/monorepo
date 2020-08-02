@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import Head from 'next/head';
 
-import { Message } from '@client/components';
+import { Message } from '@client/ui';
 import { magicNumber } from '@lib/magic-number';
 
 export default function Home() {
