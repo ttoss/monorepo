@@ -19,16 +19,22 @@ module.exports = {
     'prettier/@typescript-eslint',
   ],
   rules: {
-    '@typescript-eslint/explicit-module-boundary-types': 'off', // annoying to force return type,
-    '@typescript-eslint/explicit-function-return-type': 'off', // annoying to force return type,
+    '@typescript-eslint/explicit-module-boundary-types': 'off', // Annoying to force return type.
+    '@typescript-eslint/explicit-function-return-type': 'off', // Annoying to force return type.
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/prefer-optional-chain': 'error',
     'import/extensions': 'off', // TODO: remove some day. ES modules don't import without extensions
     'import/no-unresolved': 'off', // Remove error when importing Yarn Workspace modules.
     'import/no-extraneous-dependencies': 'off', // Remove error when importing Yarn Workspace modules.
-    'import/prefer-default-export': 'off', // Allow single Named-export
+    'import/prefer-default-export': 'off', // Allow single Named-export.
     'no-console': 'off',
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto', // https://stackoverflow.com/questions/53516594/why-do-i-keep-getting-delete-cr-prettier-prettier
+      },
+    ],
   },
   overrides: [
     {

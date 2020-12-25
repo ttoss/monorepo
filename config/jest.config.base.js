@@ -30,11 +30,10 @@ module.exports = (rootDir, type) => {
     moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
     moduleNameMapper: {
       '.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$': `${__dirname}/../__mocks__/fileMock.js`,
-      '.(css|less|scss)$': `${__dirname}/../__mocks__/styleMock.js`,
     },
     preset: 'ts-jest',
     rootDir,
-    snapshotSerializers: ['jest-emotion'],
+    snapshotSerializers: ['@emotion/jest'],
     testRegex: 'src/.*.(test|spec).tsx?$',
   };
 
