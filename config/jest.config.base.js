@@ -33,7 +33,7 @@ module.exports = (rootDir, type) => {
     },
     preset: 'ts-jest',
     rootDir,
-    snapshotSerializers: ['@emotion/jest'],
+    snapshotSerializers: ['jest-emotion'],
     testRegex: 'src/.*.(test|spec).tsx?$',
   };
 
