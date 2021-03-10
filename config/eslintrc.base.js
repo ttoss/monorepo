@@ -16,7 +16,6 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:import/typescript',
     'plugin:prettier/recommended',
-    'prettier/@typescript-eslint',
   ],
   rules: {
     '@typescript-eslint/explicit-module-boundary-types': 'off', // Annoying to force return type.
