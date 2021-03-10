@@ -1,6 +1,6 @@
-# TTOSS Monorepo Template
+# ttoss Monorepo Template
 
-Monorepo template used by [Triãngulos Tecnologia](https://triangulostecnologia.com) and TTOSS projects.
+Monorepo template used by [Triãngulos Tecnologia](https://triangulostecnologia.com) and ttoss projects.
 
 ## Features
 
@@ -9,6 +9,7 @@ Monorepo template used by [Triãngulos Tecnologia](https://triangulostecnologia.
 - Husky
 - Jest
 - Lint Staged
+- NPM Check Updates
 - Prettier
 - Stylelint
 - TypeScript
