@@ -1,1 +1,3 @@
-module.exports = require('./config/stylelint.config');
+module.exports = {
+  extends: ['stylelint-prettier/recommended'],
+};
