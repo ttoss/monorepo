@@ -13,14 +13,14 @@ module.exports = {
   plugins: [
     '@typescript-eslint',
     'jest',
-    // 'prettier'
+    // 'prettier'    // this configuration has been descontinued here.
   ],
   extends: [
     'airbnb-base',
     'plugin:@typescript-eslint/recommended',
     'plugin:import/typescript',
     'plugin:prettier/recommended',
-    // 'prettier/@typescript-eslint',
+    // 'prettier/@typescript-eslint',  // this configuration has been descontinued here.
   ],
   rules: {
     '@typescript-eslint/explicit-module-boundary-types': 'off', // Annoying to force return type.
