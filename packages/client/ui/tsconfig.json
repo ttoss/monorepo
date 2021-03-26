@@ -1,9 +1,0 @@
-{
-  "extends": "../../../tsconfig.react.json",
-  "compilerOptions": {
-    "outDir": "dist",
-    "noEmit": false
-  },
-  "include": ["src"],
-  "exclude": ["**/*.stories.tsx", "**/*.spec.tsx"]
-}
