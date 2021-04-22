@@ -1,6 +1,9 @@
 module.exports = {
+  arrowParens: 'always',
+  printWidth: 80,
+  semi: true,
   singleQuote: true,
-  trailingComma: 'all',
+  trailingComma: 'es5',
   overrides: [
     {
       files: ['*.yml', '*.yaml'],

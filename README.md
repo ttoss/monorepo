@@ -14,14 +14,10 @@ Monorepo template used by [Triãngulos Tecnologia](https://triangulostecnologia.
 - Stylelint
 - TypeScript
 
-## Creating Packages
+## Init Husky
 
-### E2E tests
-
-```js
-// ./e2e/jest.config.js
-module.exports = require('../../../../config/jest.config.base')(
-  process.cwd(),
-  'e2e',
-);
 ```
+npx husky-init && yarn
+```
+
+[Reference.](https://typicode.github.io/husky/#/?id=automatic-recommended)
